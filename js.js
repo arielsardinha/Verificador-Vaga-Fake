@@ -7,11 +7,11 @@ function verificar(){
 }
 function verificarxps(){
     caixa.style.display = 'none'
-    texto.innerHTML = 'para se candidatar nao pode ter experiencia'
+    texto.innerHTML = '<p>para se candidatar nao pode ter experiencia TENTE NOVAMENTE</p>'
     btnVerificar.style.display = 'inline-block'   
 }
 function verificarxpn(){
     caixa.style.display = 'none'
-    texto.innerHTML = 'Você nao tem experiencia para o estagio'
+    texto.innerHTML = '<p>Você nao tem experiencia para o estagio TENTE NOVAMENTE</p>'
     btnVerificar.style.display = 'inline-block'
 }
