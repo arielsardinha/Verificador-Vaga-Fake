@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaga de emprego</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Vaga de Estagio</h1>
+            <p>Verificar vaga estagio programador</p>
+            <label for="front">Front-End</label><input type="checkbox" id="front">
+            <label for="back">Back-End</label><input type="checkbox" id="back">
+            <label for="mobile">Mobile</label><input type="checkbox" id="mobile">
+            <br> <br>
+            <input type="submit" id="btnVerificar" value="verificar" onclick="verificar()">
+        </div>
+        <div id="caixaTXT">
+
+        </div>
+        <div class="caixa" id="caixa">
+            <p>Tem Experiencia ?</p>
+            <input type="submit" value="Sim" id="Texperiencia" onclick="verificarxps()">
+            <input type="submit" value="Não" id="Nexperiencia" onclick="verificarxpn()">
+        </div>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
