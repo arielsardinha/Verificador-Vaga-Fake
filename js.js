@@ -7,7 +7,7 @@ function verificar(){
 }
 function verificarxps(){
     caixa.style.display = 'none'
-    texto.innerHTML = '<p>para se candidatar nao pode ter experiencia TENTE NOVAMENTE</p>'
+    texto.innerHTML = '<p>Não temos vagas no momento TENTE NOVAMENTE</p>'
     btnVerificar.style.display = 'inline-block'   
 }
 function verificarxpn(){
